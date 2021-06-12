@@ -3,7 +3,7 @@ name: Github Pages
 on:
   push:
     branches:
-      - master
+      - main
   pull_request:
   workflow_dispatch:
 
@@ -20,6 +20,7 @@ jobs:
       run: go get 4d63.com/vangen
     - name: Build site
       run: vangen -out=build
+    - run: ls -lRt build
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       if: github.ref == 'refs/heads/main'
