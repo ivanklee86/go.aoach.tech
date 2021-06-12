@@ -1,0 +1,12 @@
+
+{
+    "domain": "go.aoach.tech",
+    "index": true,
+    "repositories": [
+      {
+        "prefix": "keyfob",
+        "url": "https://github.com/ivanklee86/keyfob",
+        "main": true
+      }
+    ]
+}
