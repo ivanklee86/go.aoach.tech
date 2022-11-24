@@ -7,6 +7,11 @@
         "prefix": "keyfob",
         "url": "https://github.com/ivanklee86/keyfob",
         "main": true
-      }
+      },
+      {
+        "prefix": "bouncer",
+        "url": "https://github.com/ivanklee86/bouncer",
+        "main": true
+      }      
     ]
 }
